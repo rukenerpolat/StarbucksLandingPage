@@ -45,7 +45,16 @@
         </ul>
     </section>
 
-    <script src="script.js"></script>
+    <script>
+        function imgSlider(anything){
+        document.querySelector('.starbucks').src = anything;
+    }
+
+    function changeCircleColor(color){
+        const circle = document.querySelector('.circle');
+        circle.style.background = color;    
+    }
+    </script>
 
 </body>
 </html>
