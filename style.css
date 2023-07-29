@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 
+:root{
+    --first-color:#fff;
+    --second-color: #017143;
+    --third-color: #333;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -10,12 +16,12 @@
 section {
     position: relative;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     padding: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #fff;
+    background: var(--first-color);
 }
 
 header {
@@ -44,14 +50,14 @@ header ul li {
 }
 
 header ul li a {
-    color: #333;
+    color: var(--third-color);
     font-weight: 400;
     margin-left: 40px;
     text-decoration: none;
 }
 
 header ul li a:hover {
-    border-bottom: 2px solid #017143;
+    border-bottom: 2px solid var(--second-color);
 }
 
 .content {
@@ -68,28 +74,28 @@ header ul li a:hover {
 }
 
 .content .textBox h2 {
-    color: #333;
+    color: var(--third-color);
     font-size: 4em;
     line-height: 1.4em;
     font-weight: 500;
 }
 
 .content .textBox h2 span {
-    color: #017143;
+    color: var(--second-color);
     font-size: 1.2em;
     font-weight: 900;
 }
 
 .content .textBox p {
-    color: #333;
+    color: var(--third-color);
 }
 
 .content .textBox a {
     display: inline-block;
     margin-top: 20px;
     padding: 8px 20px;
-    background: #017143;
-    color: #fff;
+    background: var(--second-color);
+    color: var(--first-color);
     border-radius: 40px;
     font-weight: 500;
     letter-spacing: 1px;
@@ -97,11 +103,10 @@ header ul li a:hover {
 }
 
 .content .textBox a:hover {
-    color: #017143;
-    background-color: #fff;
-    border: 1px solid #017143;
+    color: var(--second-color);
+    background-color: var(--first-color);
+    border: 1px solid var(--second-color);
 }
-
 
 .content .imgBox {
     width: 600px;
@@ -154,15 +159,17 @@ header ul li a:hover {
 }
 
 .social li a {
-    color: #fff;
+    color: var(--first-color);
     font-size: 2rem;
     display: inline-block;
     margin: 5px 0;
 }
 
 .social li a:hover {
-    color: #fff;
+    color: var(--first-color);
 }
+
+/* ICON HOVER */
 
 .social li a:hover>i {
     transform: scale(1.3) rotate(360deg);
@@ -178,7 +185,7 @@ header ul li a:hover {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #017143;
+    background: var(--second-color);
     clip-path: circle(600px at right 800px);
 }
 
@@ -200,7 +207,7 @@ header ul li a:hover {
         width: 30px;
         height: 30px;
         cursor: pointer;
-        background: url(/img/menu.png);
+        background: url(img/menu.png);
         background-size: 30px;
         background-position: center;
         background-repeat: no-repeat;
@@ -211,7 +218,7 @@ header ul li a:hover {
     .toggle.active {
         position: fixed;
         right: 20px;
-        background: url(/img/close.png);
+        background: url(img/close.png);
         background-size: 30px;
         background-position: center;
         background-repeat: no-repeat;
@@ -227,7 +234,7 @@ header ul li a:hover {
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        background: #fff;
+        background: var(--first-color);
         z-index: 10;
     }
 
@@ -247,7 +254,7 @@ header ul li a:hover {
 
     .content .textBox h2 {
         font-size: 2.5em;
-        margin: 5em 0 0 0;
+        margin-bottom: 15px;
     }
 
     .content .textBox {
@@ -272,7 +279,7 @@ header ul li a:hover {
     }
 
     .social {
-        background-color: #017143;
+        background-color: var(--second-color);
         width: 50px;
         padding: 0.5rem;
         right: 0;
