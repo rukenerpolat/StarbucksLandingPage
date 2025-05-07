@@ -7,7 +7,7 @@ This is a sleek and modern **Starbucks-inspired landing page** built to showcase
 
 This project demonstrates how to create a clean and engaging product landing page. It's perfect for frontend learners who want to practice layout design, responsive styling, and interactive elements.
 
-### 🚀 Live Demo : [View Live](https://rukenerpolat.github.io/StarbucksLandingPage/)  
+### 🚀 Live Demo : [View Live](https://bucolic-truffle-fd9ed1.netlify.app/)  
 ## 🛠️ Tech Stack
 ✅ HTML5  
 ✅ CSS3  
