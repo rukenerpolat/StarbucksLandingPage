@@ -47,7 +47,7 @@ To use or customize this project locally:
 ## 🤝 Contributing
 
 Feel free to fork the repo, make enhancements, and submit a pull request!  
-> Let’s together! ☕💻
+> Let’s code together! ☕💻
 
 ### Let’s connect: <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50">
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/rukenerpolat)
